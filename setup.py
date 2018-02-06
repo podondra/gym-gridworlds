@@ -1,10 +1,14 @@
 from setuptools import setup, find_packages
 
 
+with open('README.md') as f:
+    long_description = ''.join(f.readlines())
+
 setup(
         name='gym_gridworlds',
         version='0.0.0',
         description='Gridworlds environments for OpenAI gym.',
+        long_description=long_description,
         author='Ondřej Podsztavek',
         author_email='ondrej.podsztavek@gmail.com',
         license='MIT License',
