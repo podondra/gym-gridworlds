@@ -2,7 +2,7 @@ import gym
 from gym import spaces
 
 
-class WindyGridWorldEnv(gym.Env):
+class WindyGridworldEnv(gym.Env):
     def __init__(self):
         self.height = 7
         self.width = 10
@@ -17,8 +17,6 @@ class WindyGridWorldEnv(gym.Env):
                 2: (1, 0),   # down
                 3: (0, -1),  # left
                 }
-
-        self.seed()  # TODO why?
 
         # begin in start state
         self.reset()

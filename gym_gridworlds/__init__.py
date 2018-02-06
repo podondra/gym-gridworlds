@@ -1,14 +1,14 @@
 from gym.envs.registration import register
 
 register(
-        id='GridWorld-v0',
-        entry_point='gym_basic.envs:GridWorldEnv',
+        id='Gridworld-v0',
+        entry_point='gym_gridworlds.envs:GridworldEnv',
         )
 register(
-        id='WindyGridWorld-v0',
-        entry_point='gym_basic.envs:WindyGridWorldEnv',
+        id='WindyGridworld-v0',
+        entry_point='gym_gridworlds.envs:WindyGridworldEnv',
         )
 register(
         id='Cliff-v0',
-        entry_point='gym_basic.envs:CliffEnv',
+        entry_point='gym_gridworlds.envs:CliffEnv',
         )

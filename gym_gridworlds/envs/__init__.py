@@ -1,3 +1,3 @@
-from gym_basic.envs.gridworld_env import GridWorldEnv   # noqa
-from gym_basic.envs.windy_gridworld_env import WindyGridWorldEnv    # noqa
-from gym_basic.envs.cliff_env import CliffEnv   # noqa
+from gym_gridworlds.envs.gridworld_env import GridworldEnv   # noqa
+from gym_gridworlds.envs.windy_gridworld_env import WindyGridworldEnv    # noqa
+from gym_gridworlds.envs.cliff_env import CliffEnv   # noqa
