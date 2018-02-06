@@ -21,7 +21,7 @@ class CliffEnv(gym.Env):
         # begin in start state
         self.reset()
 
-    def _step(self, action):
+    def step(self, action):
         x, y = self.moves[action]
         self.S = self.S[0] + x, self.S[1] + y
 
@@ -36,6 +36,6 @@ class CliffEnv(gym.Env):
             return self.reset(), -100, False, {}
         return self.S, -1, False, {}
 
-    def _reset(self):
+    def reset(self):
         self.S = (3, 0)
         return self.S

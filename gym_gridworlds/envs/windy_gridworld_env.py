@@ -21,7 +21,7 @@ class WindyGridworldEnv(gym.Env):
         # begin in start state
         self.reset()
 
-    def _step(self, action):
+    def step(self, action):
         if self.S[1] in (3, 4, 5, 8):
             self.S = self.S[0] - 1, self.S[1]
         elif self.S[1] in (6, 7):
@@ -38,6 +38,6 @@ class WindyGridworldEnv(gym.Env):
             return self.S, -1, True, {}
         return self.S, -1, False, {}
 
-    def _reset(self):
+    def reset(self):
         self.S = (3, 0)
         return self.S
