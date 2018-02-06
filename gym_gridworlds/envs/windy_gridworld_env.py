@@ -41,6 +41,3 @@ class WindyGridworldEnv(gym.Env):
     def _reset(self):
         self.S = (3, 0)
         return self.S
-
-    def _render(self, mode='human', close=False):
-        raise NotImplementedError()
