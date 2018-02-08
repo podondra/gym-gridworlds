@@ -3,6 +3,7 @@ from gym import spaces
 import numpy
 
 
+# TODO create abstract class Grid and then subclass
 class GridworldEnv(gym.Env):
     reward_range = (-1, 0)
     action_space = spaces.Discrete(4)
