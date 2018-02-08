@@ -6,7 +6,7 @@ with open('README.md') as f:
 
 setup(
         name='gym_gridworlds',
-        version='0.0.0',
+        version='0.0.1',
         description='Gridworlds environments for OpenAI gym.',
         long_description=long_description,
         author='Ondřej Podsztavek',
