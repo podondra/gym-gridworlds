@@ -9,6 +9,8 @@ compatible with `OpenAI gym <https://github.com/openai/gym>`_.
 Usage
 -----
 
+.. code::
+
         $ import gym
         $ import gym_gridworlds
         $ env = gym.make('Gridworld-v0')  # substitute environment's name
