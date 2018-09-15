@@ -19,7 +19,7 @@ Usage
 ----------------
 
 Gridworld is simple 4 times 4 gridworld from example 4.1 in the [book].
-There are fout action in each state (up, down, right, left)
+There are four action in each state (up, down, right, left)
 which deterministically cause the corresponding state transitions
 but actions that would take an agent of the grid leave a state unchanged.
 The reward is -1 for all tranistion until the terminal state is reached.
